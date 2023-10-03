@@ -1,0 +1,41 @@
+section{
+ padding: auto;
+
+}
+.contact{
+    background: #403636;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-gap: 6rem;
+    grid-template-columns:(2,2fr);
+}
+.image img{
+     max-width: 100%;
+     width: 720px;
+     padding-left: 40%;
+     padding-bottom: 50%;
+    border-radius:10px 10px 10px 10px ;
+    float: right;
+    position: relative;
+   padding-top: 10%;
+}
+.contact-info h1{
+    font-size: 45px;
+    padding-top: 40px;
+    color: aliceblue;
+}
+span{
+    color: rgb(191, 9, 39);
+    font-weight: bold;
+    box-shadow: ghostwhite;
+}
+p{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-left: 5px;
+    color: rgb(225, 221, 212);
+    letter-spacing: 2px;
+}

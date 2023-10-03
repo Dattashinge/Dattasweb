@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(./img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;    
+}
+.navbar{
+    width: 86%;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .navbar .logo{
+    width: 150px;
+    cursor: pointer;
+    margin-top: -2px;
+    margin-left: -2px;
+    border-radius: 70%;
+ }
+ ul{
+    margin-top: -4%;
+ }
+ ul li{
+    list-style: none; 
+    display: inline-block;
+    padding: 10px 10px;
+ }
+ul li a{
+  font-size: -3%;
+  font-weight: bold;
+  text-decoration: none;
+  color: darkslategrey;
+  margin-top: -3%;   
+  transition: .3s ease;
+}
+a:hover{
+    color:orange ;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: rgb(33, 24, 24);
+  
+ 
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.info span{
+    color: orange;
+}
+.info a{
+    background-color: black;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.info a:hover{
+color: aliceblue;
+background-color: rgb(98, 170, 57);
+}
+
+.image{ 
+    width: 70px;
+    position: absolute;
+    
+    left: 70%;
+    height: 60%;
+    bottom: 1px;
+}
+.image img{
+    position: absolute;
+    height: 130%;
+    left: -5%;
+    transform: translate(10%);
+    bottom: 20px;
+ 
+    transition: left 2s ease;
+    border-color: black 4px;
+}
+
+
+
